@@ -1,0 +1,38 @@
+# Tim Schoster – KI-Automation Experte
+
+> Tim Schoster ist KI-Automation Experte und unterstützt Unternehmen im DACH-Raum
+> dabei, Geschäftsprozesse mit Künstlicher Intelligenz, n8n und
+> Workflow-Automatisierung zu automatisieren und zu skalieren.
+
+## Über
+
+Tim Schoster hilft Unternehmen, manuelle und wiederkehrende Abläufe durch
+KI-gestützte Automatisierung zu ersetzen. Der Fokus liegt auf pragmatischen,
+sofort einsetzbaren Lösungen mit messbarem ROI – bevorzugt auf Basis der
+Open-Source-Plattform n8n, um Datenschutz und volle Datenkontrolle zu sichern.
+
+## Leistungen
+
+- Prozessautomatisierung: End-to-End-Automatisierung manueller Abläufe
+- Workflow-Automatisierung mit n8n: individuelle, selbst-gehostete Workflows ohne Vendor-Lock-in
+- KI-Agenten & Chatbots: Assistenten für Support, Vertrieb und interne Abläufe (Claude, GPT)
+- Dokumenten- & Datenverarbeitung: automatisches Auslesen von E-Mails, PDFs, Rechnungen
+- Lead-Generierung & CRM-Integration: Leads erfassen, anreichern, qualifizieren
+- KI-Beratung & Strategie: Identifikation der Use-Cases mit dem schnellsten ROI
+
+## Häufige Fragen
+
+- Was macht ein KI-Automation Experte? Er automatisiert wiederkehrende
+  Geschäftsprozesse mit KI und Tools wie n8n.
+- Welche Prozesse lassen sich automatisieren? Kundenkommunikation, Lead-Qualifizierung,
+  Dokumentenverarbeitung, Reporting, CRM-Synchronisation u.v.m.
+- Wie lange dauert ein Projekt? Erster Live-Workflow oft in 1–3 Wochen,
+  größere Projekte 4–12 Wochen.
+- Für wen lohnt es sich? KMU, Agenturen, E-Commerce und Dienstleister mit
+  vielen manuellen Aufgaben.
+
+## Kontakt
+
+- Website: https://www.timschoster.de/
+- E-Mail: kontakt@timschoster.de
+- Region: Deutschland, Österreich, Schweiz (DACH)

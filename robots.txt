@@ -1,0 +1,21 @@
+# robots.txt – Tim Schoster KI-Automation
+User-agent: *
+Allow: /
+
+# KI-/GEO-Crawler ausdrücklich erlauben (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.timschoster.de/sitemap.xml

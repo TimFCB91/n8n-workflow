@@ -1,0 +1,17 @@
+{
+  "name": "Tim Schoster – KI-Automation",
+  "short_name": "T. Schoster",
+  "description": "KI-Automation Experte – Prozesse automatisieren mit KI & n8n.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
