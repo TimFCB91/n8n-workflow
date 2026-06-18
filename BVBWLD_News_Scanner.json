@@ -18,7 +18,7 @@
         -576,
         320
       ],
-      "id": "9713d153-ff63-4a21-9d50-41c2655bd69f",
+      "id": "43863d36-daf4-47f9-80a0-a1db8eff6805",
       "name": "News Scanner Zeitsteuerung"
     },
     {
@@ -31,7 +31,7 @@
         -16,
         496
       ],
-      "id": "070ddc23-b0b4-4a9b-9ac6-751d7cdaec71",
+      "id": "68683bb4-1895-4810-b47b-7b347c10caef",
       "name": "Quellenliste (RSS Feeds)"
     },
     {
@@ -45,7 +45,7 @@
         208,
         496
       ],
-      "id": "2b44ff9e-717c-44c4-9274-f31b470857bd",
+      "id": "1e95f724-d393-4eb1-becf-e7f3780e255e",
       "name": "RSS Feed abrufen",
       "retryOnFail": true,
       "maxTries": 2,
@@ -62,7 +62,7 @@
         528,
         480
       ],
-      "id": "48e7649e-8631-490b-bcc3-84114007ac7b",
+      "id": "e46239bf-8535-4132-8d8a-fa54f2e4ed34",
       "name": "RSS in Daten umwandeln"
     },
     {
@@ -70,10 +70,10 @@
         "operation": "rowNotExists",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_seen_articles_ID",
+          "value": "grsaPd61U4g1fA7y",
           "mode": "list",
-          "cachedResultName": "bvbwld_seen_articles",
-          "cachedResultUrl": ""
+          "cachedResultName": "bvbwld_seen articles",
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/grsaPd61U4g1fA7y"
         },
         "filters": {
           "conditions": [
@@ -90,7 +90,7 @@
         2336,
         480
       ],
-      "id": "2d400c32-fb75-4e5c-95dc-7461ba0bcf97",
+      "id": "7ad71184-408f-4be1-bbb7-ece29d987e52",
       "name": "Neue URL prüfen",
       "alwaysOutputData": false
     },
@@ -98,10 +98,10 @@
       "parameters": {
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_seen_articles_ID",
+          "value": "zC66yLMF7MT8UGC4",
           "mode": "list",
-          "cachedResultName": "bvbwld_seen_articles",
-          "cachedResultUrl": ""
+          "cachedResultName": "bvbwld_article_filter_log",
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/zC66yLMF7MT8UGC4"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -134,7 +134,7 @@
         2528,
         224
       ],
-      "id": "bc5b7a8d-79a1-4cdf-ad7a-da39eb1b05f5",
+      "id": "a1789654-061d-472c-8b2d-fd49001be33b",
       "name": "Neue URL speichern",
       "alwaysOutputData": true
     },
@@ -149,7 +149,7 @@
         2496,
         480
       ],
-      "id": "4809f385-444f-42f0-ba36-bc694a3cd08c",
+      "id": "b919f48e-0ab3-47a1-baaf-743756d02bf3",
       "name": "BVB-Relevanz prüfen"
     },
     {
@@ -183,7 +183,7 @@
         2656,
         480
       ],
-      "id": "668aea1a-c6b3-4a92-9dc0-5626cf663cc2",
+      "id": "8b2582a4-b416-4d14-b7e3-eac69f0c6aa2",
       "name": "If BVB-Relevanz"
     },
     {
@@ -204,7 +204,7 @@
         160,
         176
       ],
-      "id": "daab4b48-f7a9-4b30-b13f-cb9c5df0736c",
+      "id": "933083bc-89b9-4e0c-9f35-fe2f7e191d68",
       "name": "HTML von Quellen laden",
       "onError": "continueRegularOutput"
     },
@@ -230,7 +230,7 @@
         464,
         176
       ],
-      "id": "f13ce980-c6e5-4aa2-a777-c341e7156ac4",
+      "id": "8fab9a1c-aa5e-4cfc-8280-db825b6619b6",
       "name": "Links aus HTML extrahieren"
     },
     {
@@ -243,7 +243,7 @@
         752,
         176
       ],
-      "id": "15ec9fcf-a786-4e2b-b4dc-30ddf8f2062c",
+      "id": "cc7209db-5e1f-40bf-b562-16bc65ab96e7",
       "name": "Artikel-Links filtern"
     },
     {
@@ -257,7 +257,7 @@
         912,
         176
       ],
-      "id": "1ef97210-c6b9-4945-9473-df11c992ffca",
+      "id": "3f10eef7-a2e5-4e54-a8a0-9e3a176c8a2b",
       "name": "Sportart filtern"
     },
     {
@@ -322,7 +322,7 @@
         1072,
         176
       ],
-      "id": "ce408cd1-d298-4922-a6bb-eafcfdcf1ae9",
+      "id": "71d0861a-c20a-4db7-bd0d-768ad9968054",
       "name": "Web-Artikel vorbereiten"
     },
     {
@@ -335,7 +335,7 @@
         752,
         480
       ],
-      "id": "ab0e5d0c-6f7c-43e2-81b6-15394a556e9b",
+      "id": "5eed4d93-4bad-49d0-bd77-e0f73b8478bb",
       "name": "RSS-Artikel normalisieren (Standardformat)"
     },
     {
@@ -348,7 +348,7 @@
         1232,
         176
       ],
-      "id": "fe4042b0-8c5f-4b83-859a-4daf0d254785",
+      "id": "253d4b61-afe8-4ef4-8edb-c03a5d976ae0",
       "name": "Web-Artikel normalisieren"
     },
     {
@@ -361,7 +361,7 @@
         1824,
         480
       ],
-      "id": "b5f03e08-b29a-418f-84d7-7f7a25349a4e",
+      "id": "7b56b367-9d7e-4a25-84f1-d51bef621bdc",
       "name": "Merge"
     },
     {
@@ -382,7 +382,7 @@
         1536,
         176
       ],
-      "id": "9b33b3a7-aeec-4d19-b707-5a1fd0431328",
+      "id": "9f39b2ff-b6cb-4976-a5c3-a7f38335507b",
       "name": "Web-Artikel laden"
     },
     {
@@ -395,7 +395,7 @@
         1952,
         176
       ],
-      "id": "0c95b1d1-5b9d-4cf6-af0e-00e68cb2c362",
+      "id": "c57daf25-21fd-4c35-9032-c09e8c524849",
       "name": "Web-Daten anreichern"
     },
     {
@@ -408,17 +408,17 @@
         2816,
         480
       ],
-      "id": "e06adb5d-48b4-4966-b364-e5bd3570d07b",
+      "id": "54f6041d-a0b1-477b-b10a-a86d174400df",
       "name": "Content Fingerprint"
     },
     {
       "parameters": {
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_seen_content_ID",
+          "value": "7oCxNS9HMj0WC4vI",
           "mode": "list",
           "cachedResultName": "bvbwld_seen_content",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/7oCxNS9HMj0WC4vI"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -495,7 +495,7 @@
         4144,
         688
       ],
-      "id": "87520261-1b81-46b2-8a70-2f7b037d450e",
+      "id": "492b50ae-288e-4408-bd84-47342c377f7f",
       "name": "Content Fingerprint speichern"
     },
     {
@@ -503,10 +503,10 @@
         "operation": "rowNotExists",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_seen_content_ID",
+          "value": "7oCxNS9HMj0WC4vI",
           "mode": "list",
           "cachedResultName": "bvbwld_seen_content",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/7oCxNS9HMj0WC4vI"
         },
         "filters": {
           "conditions": [
@@ -523,7 +523,7 @@
         3136,
         480
       ],
-      "id": "0c03debb-b030-4c0b-aea7-8ca53156166c",
+      "id": "093fe099-ffee-4c61-a9f0-a959571a69ab",
       "name": "Dubletten-Check"
     },
     {
@@ -545,7 +545,7 @@
         4544,
         480
       ],
-      "id": "99d9336d-1018-47b7-b738-74dc75f015f0",
+      "id": "2e203421-d083-4019-8249-fe0877902aa5",
       "name": "Merge1"
     },
     {
@@ -592,7 +592,7 @@
         5072,
         480
       ],
-      "id": "9ba185a9-7ff3-4a96-9200-95cf0e7dd312",
+      "id": "a21e50ec-9a42-46b3-9cfc-b32b9ab0c130",
       "name": "Trello-Daten vorbereiten"
     },
     {
@@ -652,17 +652,17 @@
         2176,
         480
       ],
-      "id": "0867e1f7-6f94-4dea-99ea-11e158a585fc",
+      "id": "e610bc6f-9ed1-469c-823e-5e98649294c4",
       "name": "Feedback-Basis vorbereiten"
     },
     {
       "parameters": {
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_content_items_ID",
+          "value": "Y9p4m1f6hvhpRjqI",
           "mode": "list",
           "cachedResultName": "bvbwld_content_items",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/Y9p4m1f6hvhpRjqI"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -976,7 +976,7 @@
         4704,
         480
       ],
-      "id": "5576ee51-5714-4f27-86d6-69c731bd4248",
+      "id": "7b3b7a47-d92a-4e18-b167-3054c186b437",
       "name": "Content speichern"
     },
     {
@@ -1009,7 +1009,7 @@
         4112,
         496
       ],
-      "id": "4a06af86-546a-4ac4-b663-e395cb304e24",
+      "id": "179ca68b-b972-489b-a663-a6630f8ef1d8",
       "name": "Trello-Titel generieren",
       "credentials": {
         "openAiApi": {
@@ -1034,12 +1034,12 @@
         5728,
         464
       ],
-      "id": "e94d842d-f28d-4bd7-b157-2c1cb40f7d53",
+      "id": "4bb24e3c-ad7a-4921-9a5a-2c9875a1c482",
       "name": "Trello-Karte erstellen",
       "credentials": {
         "trelloApi": {
-          "id": "KLvRyHfMx6sBCjUI",
-          "name": "Trello account"
+          "id": "cK34MOxwFhVY0UUM",
+          "name": "Trello account 2"
         }
       }
     },
@@ -1048,10 +1048,10 @@
         "operation": "update",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_content_items_ID",
+          "value": "Y9p4m1f6hvhpRjqI",
           "mode": "list",
           "cachedResultName": "bvbwld_content_items",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/Y9p4m1f6hvhpRjqI"
         },
         "filters": {
           "conditions": [
@@ -1233,7 +1233,7 @@
         6304,
         256
       ],
-      "id": "3557968b-7af3-445c-90b0-327cdbec1e23",
+      "id": "a55a5751-72b4-4f7c-93ff-80e601fc20dd",
       "name": "content_items aktualisieren – trello_card_id speichern"
     },
     {
@@ -1246,7 +1246,7 @@
         5952,
         256
       ],
-      "id": "5eb2052b-e47c-46df-97aa-4ef81bde4146",
+      "id": "a59f488a-b17f-4e73-a01c-92c216184add",
       "name": "Merge3"
     },
     {
@@ -1280,7 +1280,7 @@
         4864,
         480
       ],
-      "id": "d4eb500a-ce41-4cf5-b778-f6e8ae9398c7",
+      "id": "7fb94d5b-4979-40ce-9733-955c78b81313",
       "name": "IF – Trello Karte schon vorhanden?"
     },
     {
@@ -1292,7 +1292,7 @@
           "value": "={{$json.id}}",
           "mode": "id"
         },
-        "id": "={{\n  // BVBWLD-Labels haben noch keine IDs/Namen -> Platzhalter, bitte im Trello-Board anlegen\n  // und die echten Label-IDs eintragen (siehe UMBAU_REPORT.md).\n  \"BVBWLD_LABEL_ID_HIER\"\n}}"
+        "id": "={{\n  String($json.priority_label || $json.priority_ai || $json.priority || \"\").toLowerCase() === \"high\"\n    ? \"6a32f5bdef032e78872eed6e\"\n    : String($json.priority_label || $json.priority_ai || $json.priority || \"\").toLowerCase() === \"medium\"\n    ? \"6a32f5bdef032e78872eed6d\"\n    : String($json.priority_label || $json.priority_ai || $json.priority || \"\").toLowerCase() === \"low\"\n    ? \"6a32f5bdef032e78872eed6c\"\n    : Number($json.priority) >= 6\n    ? \"6a32f5bdef032e78872eed6e\"\n    : Number($json.priority) >= 3\n    ? \"6a32f5bdef032e78872eed6d\"\n    : \"6a32f5bdef032e78872eed6d\"\n}}"
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
@@ -1300,12 +1300,12 @@
         6032,
         464
       ],
-      "id": "98847caf-02fb-4f68-b95d-7df6076c5349",
+      "id": "bd0b467e-be9a-48e4-a0cc-e98cbd9c5bd0",
       "name": "Add a label to a card",
       "credentials": {
         "trelloApi": {
-          "id": "KLvRyHfMx6sBCjUI",
-          "name": "Trello account"
+          "id": "cK34MOxwFhVY0UUM",
+          "name": "Trello account 2"
         }
       }
     },
@@ -1319,7 +1319,7 @@
         0,
         176
       ],
-      "id": "dae5e7c4-8da0-42d2-bc42-9746513fffed",
+      "id": "6ccb767b-b67f-4d2e-93a5-658e3f25507e",
       "name": "Web-Quellen"
     },
     {
@@ -1332,7 +1332,7 @@
         608,
         176
       ],
-      "id": "08b7abbe-a36a-4b17-86f0-b4073f0f0100",
+      "id": "f0bed520-b695-4850-9cdd-7a425d61155c",
       "name": "Link-Metadaten anreichern"
     },
     {
@@ -1345,7 +1345,7 @@
         0,
         0
       ],
-      "id": "40cf6e82-5883-4031-9228-ba9eec08ba4d",
+      "id": "a9ad424d-fa23-428f-9334-a3a03511c4c8",
       "name": "Web-Spezial-Quellen"
     },
     {
@@ -1358,18 +1358,17 @@
         208,
         0
       ],
-      "id": "095919bd-0c13-4d4b-bbe6-63faa679a748",
+      "id": "c4ac58f7-42eb-4d15-a9f3-77f28e41f844",
       "name": "Spezial-Quelle vorbereiten"
     },
     {
       "parameters": {
         "method": "POST",
         "url": "=https://api.apify.com/v2/actor-tasks/oaUciwcLP5kv4t9AW/runs",
+        "authentication": "genericCredentialType",
         "options": {
           "timeout": 15000
-        },
-        "authentication": "genericCredentialType",
-        "nodeCredentialType": "httpHeaderAuth"
+        }
       },
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.4,
@@ -1377,7 +1376,7 @@
         368,
         0
       ],
-      "id": "7149eef3-ee5e-436e-b544-d55f8f890d03",
+      "id": "d1b54841-eb17-48e4-97c7-a071a6c81d0f",
       "name": "Apify – BVB News abrufen",
       "credentials": {
         "httpHeaderAuth": {
@@ -1389,11 +1388,10 @@
     {
       "parameters": {
         "url": "=https://api.apify.com/v2/datasets/{{$json.data.defaultDatasetId}}/items",
+        "authentication": "genericCredentialType",
         "options": {
           "timeout": 15000
-        },
-        "authentication": "genericCredentialType",
-        "nodeCredentialType": "httpHeaderAuth"
+        }
       },
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.4,
@@ -1401,7 +1399,7 @@
         752,
         0
       ],
-      "id": "6ff66b2a-b2c5-4926-969c-d3303679bf3f",
+      "id": "856b39f2-238d-4d48-9642-a5033acd77c3",
       "name": "Apify – BVB Dataset abrufen",
       "credentials": {
         "httpHeaderAuth": {
@@ -1420,7 +1418,7 @@
         576,
         0
       ],
-      "id": "6fb957b3-c314-4007-a6dc-1219cf041de1",
+      "id": "a265543c-c9b9-4aaf-ae70-d1b4d31b8743",
       "name": "Apify – Warten auf Run",
       "webhookId": "0f251189-dc91-46d5-ac7d-dd11071c0381"
     },
@@ -1434,7 +1432,7 @@
         928,
         0
       ],
-      "id": "753acc81-59eb-441c-a997-25eecb9cd18b",
+      "id": "78572818-2546-428b-ad91-fee86e77af82",
       "name": "BVB Apify-Artikel filtern"
     },
     {
@@ -1447,7 +1445,7 @@
         1120,
         0
       ],
-      "id": "be513e76-b935-4ac6-80ba-c4098d6780c4",
+      "id": "ea0f9823-1ea7-4c14-977d-da6c315d83cd",
       "name": "BVB Artikel normalisieren"
     },
     {
@@ -1460,7 +1458,7 @@
         2976,
         480
       ],
-      "id": "f80671ae-a126-4053-b67e-8f2a4af265aa",
+      "id": "bed8d074-574c-465a-8d7b-53197c49ecb5",
       "name": "Dubletten im aktuellen Run entfernen"
     },
     {
@@ -1473,7 +1471,7 @@
         2016,
         496
       ],
-      "id": "2b7d8799-6e18-475f-b623-46a1ca346243",
+      "id": "1475ee12-7553-48fa-a71d-96d9ea584711",
       "name": "Letzte Artikel pro Quelle begrenzen"
     },
     {
@@ -1486,7 +1484,7 @@
         1392,
         176
       ],
-      "id": "9bbad08c-b81f-41f9-a8f6-97a5d5b2c1e2",
+      "id": "0ee6f3a0-0c96-4331-8806-74741e510cd3",
       "name": "Web – Links pro Quelle begrenzen"
     },
     {
@@ -1499,7 +1497,7 @@
         1712,
         176
       ],
-      "id": "5fbd5c97-fc24-4c44-8365-b613f21996ff",
+      "id": "f5716498-7ba8-4755-ace6-b87519b22453",
       "name": "Web-Metadaten direkt extrahieren"
     },
     {
@@ -1512,7 +1510,7 @@
         400,
         672
       ],
-      "id": "106cf0ae-ee52-4d4c-908f-a262499808a6",
+      "id": "8a0c4e8d-aac1-4bd4-87dc-d2c2c54039a9",
       "name": "RSS Fehler loggen"
     },
     {
@@ -1525,7 +1523,7 @@
         5264,
         480
       ],
-      "id": "90f257cf-192c-4838-b510-16ac7ec97b31",
+      "id": "68949d82-7da2-4e57-81e6-ddb30ca12075",
       "name": "Final Trello Gatekeeper"
     },
     {
@@ -1560,7 +1558,7 @@
         5488,
         480
       ],
-      "id": "ca79b81b-d768-4d45-ba1f-e6b13dae5e16",
+      "id": "f7c802a9-4d6e-47dd-930f-fef490ec5384",
       "name": "If"
     },
     {
@@ -1573,7 +1571,7 @@
         608,
         672
       ],
-      "id": "a214ed27-68ef-44ee-b60d-855f3c792517",
+      "id": "829750d2-b7be-4608-b7df-8c606b301e14",
       "name": "Build RSS Error Alert Key"
     },
     {
@@ -1602,7 +1600,7 @@
         816,
         672
       ],
-      "id": "bd8a14e3-6a32-404d-b0c0-11ae98cfe847",
+      "id": "ab281ded-7db0-4eb5-806a-5d79fb6479e7",
       "name": "Get row(s)",
       "alwaysOutputData": true
     },
@@ -1637,7 +1635,7 @@
         1024,
         672
       ],
-      "id": "bba0e66f-23e4-4e3b-81ac-4d56ea33d4d5",
+      "id": "ec4cbfc3-4e32-469b-830b-2ec5469eb0a1",
       "name": "If1"
     },
     {
@@ -1652,7 +1650,7 @@
         1232,
         656
       ],
-      "id": "0fd6e55e-f8ec-495c-a618-f72512498450",
+      "id": "0012bd47-8627-4177-bfbd-d381f10488e4",
       "name": "Send a text message",
       "webhookId": "1f4a9039-0a4d-446f-95de-1db4971c0cae",
       "credentials": {
@@ -1744,7 +1742,7 @@
         1440,
         656
       ],
-      "id": "8aa61cd4-a98f-4270-89e3-779fbfb2ccf7",
+      "id": "88719bed-8129-4e4b-a126-2389be1217ea",
       "name": "RSS Alert merken"
     },
     {
@@ -1757,7 +1755,7 @@
         4384,
         480
       ],
-      "id": "dd776840-4a1a-4a0e-836f-c8a4f2961d1d",
+      "id": "d82591ff-65ef-4db6-b663-d4138b16bf60",
       "name": "Infos clean1"
     },
     {
@@ -1778,7 +1776,7 @@
         3152,
         240
       ],
-      "id": "f30a352b-654e-4368-b9a4-77f0097bfb6c",
+      "id": "7dfa74c2-7fe0-40f5-af8c-e4643d859801",
       "name": "BVBWLD Artikel laden",
       "executeOnce": true
     },
@@ -1792,7 +1790,7 @@
         3328,
         240
       ],
-      "id": "db32bbf5-e743-41de-9871-973eca052769",
+      "id": "5b81b6d3-7e59-4f20-adc8-a59fa35f329a",
       "name": "BVBWLD Fingerprints vorbereiten"
     },
     {
@@ -1800,10 +1798,10 @@
         "operation": "upsert",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_topic_fingerprints_ID",
+          "value": "fBS1SVGC4nbB5AfQ",
           "mode": "list",
-          "cachedResultName": "bvbwld_topic_fingerprints",
-          "cachedResultUrl": ""
+          "cachedResultName": "bvbwld_fcbinside_topic_fingerprints",
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/fBS1SVGC4nbB5AfQ"
         },
         "filters": {
           "conditions": [
@@ -1908,7 +1906,7 @@
         3504,
         240
       ],
-      "id": "663b6424-8ea3-4fb5-9daa-2e6d77780354",
+      "id": "e4f7a7c6-d64b-42f0-95ba-0f0108aae5fa",
       "name": "BVBWLD Fingerprints speichern"
     },
     {
@@ -1928,7 +1926,7 @@
         2784,
         256
       ],
-      "id": "c3d831b7-3980-47a5-9c25-6a9adb0fd7c8",
+      "id": "f84479f7-e952-4b95-816a-4a8b2892cb98",
       "name": "Schedule Trigger"
     },
     {
@@ -1936,10 +1934,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_topic_fingerprints_ID",
+          "value": "fBS1SVGC4nbB5AfQ",
           "mode": "list",
           "cachedResultName": "bvbwld_topic_fingerprints",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/fBS1SVGC4nbB5AfQ"
         },
         "returnAll": true
       },
@@ -1949,8 +1947,9 @@
         3296,
         480
       ],
-      "id": "6bc81a18-7930-4bb0-91e3-bfddcc65790d",
-      "name": "BVBWLD Bestand laden"
+      "id": "2863f531-387f-43d9-8ded-f647c2fab7db",
+      "name": "BVBWLD Bestand laden",
+      "alwaysOutputData": true
     },
     {
       "parameters": {
@@ -1962,7 +1961,7 @@
         3440,
         480
       ],
-      "id": "bd15bbce-aa4f-47dd-a1b4-4d009da0f4d4",
+      "id": "3450b7e5-fcb9-4683-9eee-813f1f20882e",
       "name": "Externe gegen BVBWLD Bestand prüfen"
     },
     {
@@ -2004,7 +2003,7 @@
         2928,
         256
       ],
-      "id": "b29ac31d-193c-43f7-a7ea-c705cb62549e",
+      "id": "44c31f92-5ce9-44b6-805a-99a54e503e04",
       "name": "Nur 7 bis 23 Uhr"
     },
     {
@@ -2029,7 +2028,7 @@
             {
               "id": "2c73aa45-576a-4286-9ba7-6fa621f4d5d9",
               "leftValue": "={{ Number($now.setZone('Europe/Berlin').toFormat('H')) }}",
-              "rightValue": 22,
+              "rightValue": 24,
               "operator": {
                 "type": "number",
                 "operation": "lt"
@@ -2046,7 +2045,7 @@
         -368,
         320
       ],
-      "id": "dac62daa-42bb-46cf-a0c8-17030d7ca636",
+      "id": "9d62be19-0382-4317-a5cf-5de2d3abf66c",
       "name": "Nur 8 bis 22 Uhr"
     },
     {
@@ -2059,7 +2058,7 @@
         -16,
         336
       ],
-      "id": "4b844024-f6fe-4923-8672-bd9ea9283e47",
+      "id": "7f160708-c7d3-480d-ba33-46eb0daa4425",
       "name": "X-Quellen"
     },
     {
@@ -2072,7 +2071,7 @@
         192,
         336
       ],
-      "id": "76ae3245-b975-4720-8dba-29cfadb13986",
+      "id": "7425d333-ea35-4b69-a4b1-c63320d974b5",
       "name": "X-Apify-Input bauen"
     },
     {
@@ -2092,7 +2091,7 @@
         400,
         336
       ],
-      "id": "5854458a-5c1b-459a-a3a9-c5c583b55c70",
+      "id": "4ab1e212-9336-4507-9167-370c6bab83c4",
       "name": "Apify X Actor starten",
       "credentials": {
         "httpHeaderAuth": {
@@ -2111,7 +2110,7 @@
         608,
         336
       ],
-      "id": "696a2be3-2ee1-41db-8f00-b2d41a340a81",
+      "id": "864b43da-c0cc-4734-b691-292d7e9f945e",
       "name": "Apify X warten",
       "webhookId": "d2430be8-b366-4a60-ad68-0b45534c4091"
     },
@@ -2128,7 +2127,7 @@
         816,
         336
       ],
-      "id": "ab0e0256-3183-4fe9-822b-f11cbae74f0a",
+      "id": "ac31f5e4-d540-413e-8b02-b1514173a3a8",
       "name": "Apify X Run Status prüfen",
       "credentials": {
         "httpHeaderAuth": {
@@ -2163,7 +2162,7 @@
         1024,
         336
       ],
-      "id": "2defe0d2-3db4-467c-97e5-e62083418fe4",
+      "id": "abf96ef0-9dfd-482a-a3b5-c58e8b67c63b",
       "name": "Apify X Dataset laden",
       "credentials": {
         "httpHeaderAuth": {
@@ -2182,7 +2181,7 @@
         1232,
         336
       ],
-      "id": "e5edeb50-3be4-44ed-9af7-65f980afb738",
+      "id": "19474d89-dcd1-4ac0-b831-63eaa0a24687",
       "name": "X-Posts normalisieren"
     },
     {
@@ -2202,7 +2201,7 @@
         -576,
         512
       ],
-      "id": "0e9535e7-d493-419a-98f7-31e2492310c6",
+      "id": "6b9dfcba-c3e9-4f60-a416-19f9f3d10798",
       "name": "Schedule Trigger1"
     },
     {
@@ -2244,7 +2243,7 @@
         -368,
         512
       ],
-      "id": "5c868cde-8b08-4946-8450-90ca45c902ba",
+      "id": "d302f1a0-3035-4a55-ab04-471f3a1ea7f1",
       "name": "8 bis 22 Uhr"
     },
     {
@@ -2278,7 +2277,7 @@
         320,
         176
       ],
-      "id": "6e7bf499-6fc9-4895-b54c-c8c253a5c513",
+      "id": "b3886840-dbd6-4d01-a54f-6b5b552c35d1",
       "name": "data exists"
     },
     {
@@ -2286,10 +2285,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_style_rules_ID",
+          "value": "Fru6ZtGlmbNemxzh",
           "mode": "list",
           "cachedResultName": "bvbwld_style_rules",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/Fru6ZtGlmbNemxzh"
         },
         "matchType": "allConditions",
         "filters": {
@@ -2311,7 +2310,7 @@
         4016,
         144
       ],
-      "id": "893a076b-bf5b-4aea-83ec-4b4d9a086911",
+      "id": "e504fdfa-8ef2-44f5-8121-80bb4affdfb3",
       "name": "Get Approved Title Style Rules",
       "alwaysOutputData": true
     },
@@ -2325,7 +2324,7 @@
         4208,
         144
       ],
-      "id": "695d8b80-51eb-4d59-8093-54831049bd7a",
+      "id": "8460b81a-e2c5-4f8f-b3fa-ea337ae669c5",
       "name": "Prepare Title Style Rules For Prompt"
     },
     {
@@ -2340,7 +2339,7 @@
         4416,
         144
       ],
-      "id": "ecb140aa-3d85-4905-8098-2bd147a43fd3",
+      "id": "dead0452-6181-4e59-b642-c3fa34e43c1d",
       "name": "Merge Title Input + Style Rules"
     },
     {
@@ -2354,7 +2353,7 @@
         3440,
         864
       ],
-      "id": "904b2a21-23d6-46ac-a79d-d2d89d5895a8",
+      "id": "05dbe0f2-7cbb-4b9f-9ac0-5c7c4bd53953",
       "name": "Prepare KI Redaktioneller Check"
     },
     {
@@ -2385,7 +2384,7 @@
         3632,
         880
       ],
-      "id": "9893d6b5-713b-4451-9582-40c86e03beed",
+      "id": "0df3f34e-f118-4395-a2fe-052df2736c18",
       "name": "KI Redaktioneller Check",
       "credentials": {
         "openAiApi": {
@@ -2405,7 +2404,7 @@
         4224,
         864
       ],
-      "id": "97b408e3-6692-4a82-9caf-86b537b0e41c",
+      "id": "8bdb2406-11e9-4014-9f6e-0c238bf93091",
       "name": "Parse KI Redaktioneller Check"
     },
     {
@@ -2439,7 +2438,7 @@
         4432,
         864
       ],
-      "id": "3f4287e9-a7c9-492a-907e-eb5b2fb4032e",
+      "id": "0348c22c-109a-4b1d-b377-437c26cc89bd",
       "name": "IF KI blocken?"
     },
     {
@@ -2453,17 +2452,17 @@
         4704,
         752
       ],
-      "id": "fd86a9ce-315d-4339-a6df-95ced46878db",
+      "id": "9af4e1ec-1068-42f0-ac2f-63fa96d808ab",
       "name": "Prepare KI Block Log"
     },
     {
       "parameters": {
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_article_filter_log_ID",
+          "value": "zC66yLMF7MT8UGC4",
           "mode": "list",
           "cachedResultName": "bvbwld_article_filter_log",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/zC66yLMF7MT8UGC4"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -2725,7 +2724,7 @@
         4928,
         752
       ],
-      "id": "bf918ca9-4b4d-4b89-8ace-3372360d5e5e",
+      "id": "a3080814-0743-4e9e-a9b0-4d572edcfcaf",
       "name": "Save Filter Log"
     },
     {
@@ -2759,7 +2758,7 @@
         4640,
         960
       ],
-      "id": "87a00453-0f88-4425-9242-f6afb294bd41",
+      "id": "972ce158-5fb5-468b-bc45-dffb37a51ce0",
       "name": "IF Manual Review?"
     },
     {
@@ -2773,7 +2772,7 @@
         4896,
         912
       ],
-      "id": "6c2e1bfa-4a9f-4c10-b289-7f91fc13ad63",
+      "id": "32f02434-8137-44d9-83c7-dd3251f75c6b",
       "name": "Prepare Manual Review"
     },
     {
@@ -2787,7 +2786,7 @@
         4848,
         1056
       ],
-      "id": "c9e06183-5a15-4692-99c0-ed280d08e216",
+      "id": "387e7e0b-4f47-492b-bf6a-aa008c313c95",
       "name": "Prepare KI Allow"
     },
     {
@@ -2798,7 +2797,7 @@
         3872,
         480
       ],
-      "id": "21ac1e22-cc6b-4bb4-9f3c-ee0726c7968c",
+      "id": "f7355ff0-e25c-47ef-aeca-25cb0f61a455",
       "name": "Merge KI Freigaben"
     },
     {
@@ -2813,7 +2812,7 @@
         3984,
         880
       ],
-      "id": "4cd1bdd7-dfd2-4c46-aad8-8211f8e8e68a",
+      "id": "9b898e22-c6b3-4385-9b0d-cfb9824c5fad",
       "name": "Merge Original + KI Antwort"
     },
     {
@@ -2821,10 +2820,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_content_items_ID",
+          "value": "Y9p4m1f6hvhpRjqI",
           "mode": "list",
           "cachedResultName": "bvbwld_content_items",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/Y9p4m1f6hvhpRjqI"
         },
         "filters": {
           "conditions": [
@@ -2842,18 +2841,19 @@
         2976,
         1104
       ],
-      "id": "5ff67a33-1b58-4a3b-ba00-7e669c9bbb4e",
-      "name": "Find Content Story Candidates"
+      "id": "42f6e00d-bc13-4411-b886-eea7a8a42ba0",
+      "name": "Find Content Story Candidates",
+      "alwaysOutputData": true
     },
     {
       "parameters": {
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_content_items_ID",
+          "value": "Y9p4m1f6hvhpRjqI",
           "mode": "list",
           "cachedResultName": "bvbwld_content_items",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/Y9p4m1f6hvhpRjqI"
         },
         "matchType": "allConditions",
         "filters": {
@@ -2876,7 +2876,7 @@
         3184,
         1104
       ],
-      "id": "c57ca2e6-63df-48ca-ae7d-a2a8bd7b58aa",
+      "id": "df6d7fd4-2a05-432e-904e-a82cca0ec5f0",
       "name": "Find Content Entity Candidates"
     },
     {
@@ -2887,7 +2887,7 @@
         3424,
         1120
       ],
-      "id": "b520844e-08da-4f83-a30a-ac14e5736b33",
+      "id": "3831e054-b6ca-420d-8b6f-56e36f86c97a",
       "name": "Merge Content Candidates"
     },
     {
@@ -2901,7 +2901,7 @@
         3648,
         480
       ],
-      "id": "0d5c5119-6338-4064-b921-8d0137fe0171",
+      "id": "fb7af263-f5d1-46ea-bbec-dced2a785956",
       "name": "Mark Current Item"
     },
     {
@@ -2912,12 +2912,12 @@
         3024,
         816
       ],
-      "id": "ac09c104-3cc3-450c-ad24-5cb635e72075",
+      "id": "0abd7d3a-a5b1-4b63-b4f8-e9277b56128c",
       "name": "Merge Original + Candidates"
     },
     {
       "parameters": {
-        "jsCode": "const rows = $input.all().map(i => i.json);\n\nconst current = rows.find(r => r._row_type === \"current_item\");\n\nif (!current) {\n  throw new Error(\"Kein current_item gefunden. Prüfe Mark Current Item und Merge Original + Candidates.\");\n}\n\nconst candidateRows = rows.filter(r => r._row_type !== \"current_item\");\n\nconst seen = new Set();\n\nconst possible_duplicate_candidates = candidateRows\n  .filter(c => {\n    const key = c.id || c.item_id || c.source_url || c.url || c.content_fingerprint;\n    if (!key) return false;\n\n    if (\n      c.content_fingerprint &&\n      current.content_fingerprint &&\n      c.content_fingerprint === current.content_fingerprint\n    ) {\n      return false;\n    }\n\n    if (\n      (c.source_url || c.url) &&\n      current.url &&\n      (c.source_url || c.url) === current.url\n    ) {\n      return false;\n    }\n\n    const sameStory =\n      c.story_thread_key &&\n      current.story_thread_key &&\n      c.story_thread_key === current.story_thread_key;\n\n    const sameEntityTopic =\n      c.story_entity &&\n      current.story_entity &&\n      c.story_entity === current.story_entity &&\n      (!c.story_topic || !current.story_topic || c.story_topic === current.story_topic);\n\n    return sameStory || sameEntityTopic;\n  })\n  .filter(c => {\n    const key = c.id || c.item_id || c.source_url || c.url || c.content_fingerprint;\n    if (!key || seen.has(key)) return false;\n    seen.add(key);\n    return true;\n  })\n  .slice(0, 8)\n  .map((c, index) => {\n    const sourceTitle = c.source_title || c.title || \"\";\n    const generatedTitle = c.generated_trello_title || c.generated_title || \"\";\n\n    const description =\n      c.source_description ||\n      c.description ||\n      \"\";\n\n    const rawText =\n      c.source_raw_text ||\n      c.raw_text ||\n      \"\";\n\n    const shortText =\n      c.source_raw_text ||\n      c.raw_text ||\n      c.source_description ||\n      c.description ||\n      c.generated_social ||\n      c.social_caption ||\n      c.generated_meta ||\n      \"\";\n\n    return {\n      index: index + 1,\n\n      title: generatedTitle || sourceTitle,\n      source_title: sourceTitle,\n      generated_trello_title: generatedTitle,\n\n      description,\n      source_description: c.source_description || \"\",\n      source_raw_text: c.source_raw_text || \"\",\n      raw_text: rawText ? String(rawText).slice(0, 1000) : \"\",\n\n      short_text: String(shortText).slice(0, 700),\n\n      url: c.source_url || c.url || \"\",\n      source: c.source || \"\",\n      source_type: c.source_type || \"\",\n      source_category: c.source_category || \"\",\n\n      published_at: c.published_at || \"\",\n      created_at: c.createdAt || c.created_at || \"\",\n\n      content_fingerprint: c.content_fingerprint || \"\",\n      fingerprint_key: c.fingerprint_key || \"\",\n\n      story_thread_key: c.story_thread_key || \"\",\n      story_topic: c.story_topic || \"\",\n      story_entity: c.story_entity || \"\",\n      story_opponent: c.story_opponent || c.fingerprint_opponent || \"\",\n      story_speaker: c.story_speaker || c.fingerprint_speaker || \"\",\n      story_stage: c.story_stage || \"\",\n      story_stage_detail: c.story_stage_detail || \"\",\n      story_stage_rank: c.story_stage_rank || \"\",\n      story_update_stage_key: c.story_update_stage_key || \"\",\n\n      fingerprint_topic: c.fingerprint_topic || \"\",\n      fingerprint_entity: c.fingerprint_entity || \"\",\n      fingerprint_entity_type: c.fingerprint_entity_type || \"\",\n      fingerprint_transfer_subangle: c.fingerprint_transfer_subangle || \"\",\n      fingerprint_transfer_subangle_detail: c.fingerprint_transfer_subangle_detail || \"\",\n      fingerprint_injury_phase: c.fingerprint_injury_phase || \"\",\n      fingerprint_future_phase: c.fingerprint_future_phase || \"\",\n      fingerprint_statement_angle: c.fingerprint_statement_angle || \"\",\n\n      priority: c.priority || \"\",\n      priority_label: c.priority_label || \"\",\n      social_caption: c.social_caption || c.generated_social || \"\",\n\n      trello_card_id: c.trello_card_id || \"\",\n\n      ai_action: c.ai_action || \"\",\n      ai_duplicate_decision: c.ai_duplicate_decision || \"\",\n      ai_relationship: c.ai_relationship || \"\",\n      ai_confidence: c.ai_confidence ?? \"\",\n      ai_priority: c.ai_priority || \"\",\n      ai_angle: c.ai_angle || \"\",\n      ai_reason: c.ai_reason || \"\",\n\n      recommended_action_ai: c.recommended_action_ai || c.ai_action || \"\",\n      duplicate_decision_ai: c.duplicate_decision_ai || c.ai_duplicate_decision || \"\",\n      duplicate_relationship_ai: c.duplicate_relationship_ai || c.ai_relationship || \"\",\n      confidence_ai: c.confidence_ai ?? c.ai_confidence ?? \"\",\n      priority_ai: c.priority_ai || c.ai_priority || \"\",\n      editorial_angle_ai: c.editorial_angle_ai || c.ai_angle || \"\",\n      editorial_reason_ai: c.editorial_reason_ai || c.ai_reason || \"\"\n    };\n  });\n\ndelete current._row_type;\n\nreturn [\n  {\n    json: {\n      ...current,\n      possible_duplicate_candidates,\n      previous_content_candidates_count: possible_duplicate_candidates.length\n    }\n  }\n];"
+        "jsCode": "const rows = $input.all().map(i => i.json);\n\nconst currentItems = rows.filter(r => r._row_type === \"current_item\");\nconst candidateRows = rows.filter(r => r._row_type !== \"current_item\");\n\nif (currentItems.length === 0) {\n  throw new Error(\"Kein current_item gefunden. Pruefe Mark Current Item und Merge Original + Candidates.\");\n}\n\nfunction buildCandidatesFor(current) {\n  const seen = new Set();\n\n  return candidateRows\n    .filter(c => {\n      const key = c.id || c.item_id || c.source_url || c.url || c.content_fingerprint;\n      if (!key) return false;\n\n      if (\n        c.content_fingerprint &&\n        current.content_fingerprint &&\n        c.content_fingerprint === current.content_fingerprint\n      ) {\n        return false;\n      }\n\n      if (\n        (c.source_url || c.url) &&\n        current.url &&\n        (c.source_url || c.url) === current.url\n      ) {\n        return false;\n      }\n\n      const sameStory =\n        c.story_thread_key &&\n        current.story_thread_key &&\n        c.story_thread_key === current.story_thread_key;\n\n      const sameEntityTopic =\n        c.story_entity &&\n        current.story_entity &&\n        c.story_entity === current.story_entity &&\n        (!c.story_topic || !current.story_topic || c.story_topic === current.story_topic);\n\n      return sameStory || sameEntityTopic;\n    })\n    .filter(c => {\n      const key = c.id || c.item_id || c.source_url || c.url || c.content_fingerprint;\n      if (!key || seen.has(key)) return false;\n      seen.add(key);\n      return true;\n    })\n    .slice(0, 8)\n    .map((c, index) => {\n      const sourceTitle = c.source_title || c.title || \"\";\n      const generatedTitle = c.generated_trello_title || c.generated_title || \"\";\n\n      const description = c.source_description || c.description || \"\";\n\n      const rawText = c.source_raw_text || c.raw_text || \"\";\n\n      const shortText =\n        c.source_raw_text ||\n        c.raw_text ||\n        c.source_description ||\n        c.description ||\n        c.generated_social ||\n        c.social_caption ||\n        c.generated_meta ||\n        \"\";\n\n      return {\n        index: index + 1,\n        title: generatedTitle || sourceTitle,\n        source_title: sourceTitle,\n        generated_trello_title: generatedTitle,\n        description,\n        source_description: c.source_description || \"\",\n        source_raw_text: c.source_raw_text || \"\",\n        raw_text: rawText ? String(rawText).slice(0, 1000) : \"\",\n        short_text: String(shortText).slice(0, 700),\n        url: c.source_url || c.url || \"\",\n        source: c.source || \"\",\n        source_type: c.source_type || \"\",\n        source_category: c.source_category || \"\",\n        published_at: c.published_at || \"\",\n        created_at: c.createdAt || c.created_at || \"\",\n        content_fingerprint: c.content_fingerprint || \"\",\n        fingerprint_key: c.fingerprint_key || \"\",\n        story_thread_key: c.story_thread_key || \"\",\n        story_topic: c.story_topic || \"\",\n        story_entity: c.story_entity || \"\",\n        story_opponent: c.story_opponent || c.fingerprint_opponent || \"\",\n        story_speaker: c.story_speaker || c.fingerprint_speaker || \"\",\n        story_stage: c.story_stage || \"\",\n        story_stage_detail: c.story_stage_detail || \"\",\n        story_stage_rank: c.story_stage_rank || \"\",\n        story_update_stage_key: c.story_update_stage_key || \"\",\n        fingerprint_topic: c.fingerprint_topic || \"\",\n        fingerprint_entity: c.fingerprint_entity || \"\",\n        fingerprint_entity_type: c.fingerprint_entity_type || \"\",\n        fingerprint_transfer_subangle: c.fingerprint_transfer_subangle || \"\",\n        fingerprint_transfer_subangle_detail: c.fingerprint_transfer_subangle_detail || \"\",\n        fingerprint_injury_phase: c.fingerprint_injury_phase || \"\",\n        fingerprint_future_phase: c.fingerprint_future_phase || \"\",\n        fingerprint_statement_angle: c.fingerprint_statement_angle || \"\",\n        priority: c.priority || \"\",\n        priority_label: c.priority_label || \"\",\n        social_caption: c.social_caption || c.generated_social || \"\",\n        trello_card_id: c.trello_card_id || \"\",\n        ai_action: c.ai_action || \"\",\n        ai_duplicate_decision: c.ai_duplicate_decision || \"\",\n        ai_relationship: c.ai_relationship || \"\",\n        ai_confidence: c.ai_confidence ?? \"\",\n        ai_priority: c.ai_priority || \"\",\n        ai_angle: c.ai_angle || \"\",\n        ai_reason: c.ai_reason || \"\",\n        recommended_action_ai: c.recommended_action_ai || c.ai_action || \"\",\n        duplicate_decision_ai: c.duplicate_decision_ai || c.ai_duplicate_decision || \"\",\n        duplicate_relationship_ai: c.duplicate_relationship_ai || c.ai_relationship || \"\",\n        confidence_ai: c.confidence_ai ?? c.ai_confidence ?? \"\",\n        priority_ai: c.priority_ai || c.ai_priority || \"\",\n        editorial_angle_ai: c.editorial_angle_ai || c.ai_angle || \"\",\n        editorial_reason_ai: c.editorial_reason_ai || c.ai_reason || \"\"\n      };\n    });\n}\n\nreturn currentItems.map(currentRaw => {\n  const current = { ...currentRaw };\n  delete current._row_type;\n\n  const possible_duplicate_candidates = buildCandidatesFor(currentRaw);\n\n  return {\n    json: {\n      ...current,\n      possible_duplicate_candidates,\n      previous_content_candidates_count: possible_duplicate_candidates.length\n    }\n  };\n});"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -2925,7 +2925,7 @@
         3200,
         816
       ],
-      "id": "8de3f805-7e40-4c3d-808e-9b3a0ce79787",
+      "id": "245533ba-9eb3-4e0c-b5f5-ea2ca5477adb",
       "name": "Attach Content Candidates"
     },
     {
@@ -2985,301 +2985,28 @@
         2432,
         752
       ],
-      "id": "ea85b46c-74f3-4e12-b359-a5b3d2868070",
+      "id": "f396ca2b-a86e-41d3-9b45-aee0e6da0215",
       "name": "Prepare Log Irrelevante Artikel"
     },
     {
       "parameters": {
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_article_filter_log_ID",
+          "value": "grsaPd61U4g1fA7y",
           "mode": "list",
-          "cachedResultName": "bvbwld_article_filter_log",
-          "cachedResultUrl": ""
+          "cachedResultName": "bvbwld_seen articles",
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/grsaPd61U4g1fA7y"
         },
         "columns": {
           "mappingMode": "defineBelow",
-          "value": {
-            "is_bvb_relevant_code": false,
-            "is_bvb_relevant_ai": false,
-            "ai_confidence": 0,
-            "source": "={{ $json.source || \"\" }}",
-            "title": "={{ $json.title || \"\" }}",
-            "url": "={{ $json.url || \"\" }}",
-            "published_at": "={{ $json.published_at || \"\" }}",
-            "filter_stage": "={{ $json.filter_stage || \"bvb_relevance\" }}",
-            "filter_result": "={{ $json.filter_result || \"irrelevant\" }}",
-            "filter_reason": "={{ $json.filter_reason || \"not_bvb_relevant\" }}",
-            "debug_keywords": "={{ $json.debug_keywords || \"\" }}",
-            "source_description": "={{ $json.source_description || \"\" }}",
-            "source_raw_text": "={{ $json.source_raw_text || \"\" }}",
-            "payload_json": "={{ $json.payload_json || \"\" }}"
-          },
-          "matchingColumns": [],
+          "value": {},
+          "matchingColumns": [
+            "url"
+          ],
           "schema": [
-            {
-              "id": "created_at",
-              "displayName": "created_at",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "filter_stage",
-              "displayName": "filter_stage",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "filter_reason",
-              "displayName": "filter_reason",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "title",
-              "displayName": "title",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
             {
               "id": "url",
               "displayName": "url",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "source",
-              "displayName": "source",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "is_bvb_relevant_code",
-              "displayName": "is_bvb_relevant_code",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "boolean",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "relevance_type_code",
-              "displayName": "relevance_type_code",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "is_bvb_relevant_ai",
-              "displayName": "is_bvb_relevant_ai",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "boolean",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_action",
-              "displayName": "ai_action",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_duplicate_decision",
-              "displayName": "ai_duplicate_decision",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_relationship",
-              "displayName": "ai_relationship",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_confidence",
-              "displayName": "ai_confidence",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "number",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_priority",
-              "displayName": "ai_priority",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_angle",
-              "displayName": "ai_angle",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "ai_reason",
-              "displayName": "ai_reason",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "duplicate_of",
-              "displayName": "duplicate_of",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "content_fingerprint",
-              "displayName": "content_fingerprint",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "story_thread_key",
-              "displayName": "story_thread_key",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "story_topic",
-              "displayName": "story_topic",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "story_entity",
-              "displayName": "story_entity",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "debug_keywords",
-              "displayName": "debug_keywords",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "published_at",
-              "displayName": "published_at",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "filter_result",
-              "displayName": "filter_result",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "source_description",
-              "displayName": "source_description",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "source_raw_text",
-              "displayName": "source_raw_text",
-              "required": false,
-              "defaultMatch": false,
-              "display": true,
-              "type": "string",
-              "readOnly": false,
-              "removed": false
-            },
-            {
-              "id": "payload_json",
-              "displayName": "payload_json",
               "required": false,
               "defaultMatch": false,
               "display": true,
@@ -3299,7 +3026,7 @@
         2656,
         752
       ],
-      "id": "0d607ca2-a561-444c-8678-28c88a3676f7",
+      "id": "3dc8fcc8-c7c0-4fa4-8bac-3a5187f9f3a6",
       "name": "Save Log Irrelevante Artikel"
     },
     {
@@ -3313,7 +3040,7 @@
         4624,
         144
       ],
-      "id": "e7f36b1f-deaa-4d2d-9874-0059787f5345",
+      "id": "6d873788-503c-4a7a-bec4-dc5320793199",
       "name": "Determine Title Style Cluster"
     },
     {
@@ -3327,7 +3054,7 @@
         4832,
         144
       ],
-      "id": "63713c0d-00f9-42b7-8d98-e9f74b95a9aa",
+      "id": "09791814-86d4-41bb-bc33-68f9b16e4e55",
       "name": "Mark Current Title Item"
     },
     {
@@ -3335,10 +3062,10 @@
         "operation": "get",
         "dataTableId": {
           "__rl": true,
-          "value": "BVBWLD_DATATABLE_style_examples_ID",
+          "value": "0Fp2SKHN5t9iUfdt",
           "mode": "list",
           "cachedResultName": "bvbwld_style_examples",
-          "cachedResultUrl": ""
+          "cachedResultUrl": "/projects/aEEgH70ov23U91xi/datatables/0Fp2SKHN5t9iUfdt"
         },
         "matchType": "allConditions",
         "filters": {
@@ -3354,7 +3081,7 @@
         5040,
         144
       ],
-      "id": "2eea2719-9044-464b-a07b-ca7d68e505e6",
+      "id": "67018c40-6e20-4d1b-b654-806a6c3849b4",
       "name": "Get Title Style Examples"
     },
     {
@@ -3365,12 +3092,12 @@
         5248,
         144
       ],
-      "id": "5a8b7ccf-8122-43b3-822a-9dcd97551f4f",
+      "id": "29621b5d-6612-4bfe-b93f-08e70ea690fc",
       "name": "Merge Original + Title Style Examples"
     },
     {
       "parameters": {
-        "jsCode": "const rows = $input.all().map(item => item.json);\n\nconst current = rows.find(row => row._row_type === \"current_title_item\");\n\nif (!current) {\n  throw new Error(\"Kein current_title_item gefunden. Prüfe Mark Current Title Item und Merge Original + Title Style Examples.\");\n}\n\nconst targetCluster = String(current.style_example_cluster || \"\").trim();\nconst targetTopicType = String(current.topic_type || \"\").trim();\n\nconst allExamples = rows\n  .filter(row => row._row_type !== \"current_title_item\")\n  .filter(row => row.active !== false)\n  .filter(row => row.approved_example !== false);\n\nfunction priorityValue(example) {\n  const value = Number(example.priority);\n  return Number.isFinite(value) ? value : 999;\n}\n\nfunction getUniqueKey(example) {\n  return (\n    example.id ||\n    example.example_title ||\n    `${example.topic_cluster || \"\"}_${example.subtype || \"\"}_${example.priority || \"\"}`\n  );\n}\n\nfunction pickUnique(examples, limit, alreadySeen) {\n  const picked = [];\n\n  for (const example of examples) {\n    const key = getUniqueKey(example);\n    if (!key || alreadySeen.has(key)) continue;\n\n    alreadySeen.add(key);\n    picked.push(example);\n\n    if (picked.length >= limit) break;\n  }\n\n  return picked;\n}\n\nconst seen = new Set();\n\nconst exactClusterExamples = allExamples\n  .filter(example => String(example.topic_cluster || \"\").trim() === targetCluster)\n  .sort((a, b) => priorityValue(a) - priorityValue(b));\n\nconst sameTopicExamples = allExamples\n  .filter(example => String(example.topic_type || \"\").trim() === targetTopicType)\n  .filter(example => String(example.topic_cluster || \"\").trim() !== targetCluster)\n  .sort((a, b) => priorityValue(a) - priorityValue(b));\n\nconst fallbackExamples = allExamples\n  .filter(example => String(example.topic_cluster || \"\").trim() === \"general_soft_news\")\n  .sort((a, b) => priorityValue(a) - priorityValue(b));\n\nconst anyExamples = allExamples\n  .sort((a, b) => priorityValue(a) - priorityValue(b));\n\nlet selected = [];\n\nselected.push(...pickUnique(exactClusterExamples, 2, seen));\n\nif (selected.length < 2) {\n  selected.push(...pickUnique(sameTopicExamples, 2 - selected.length, seen));\n}\n\nif (selected.length < 2) {\n  selected.push(...pickUnique(fallbackExamples, 2 - selected.length, seen));\n}\n\nif (selected.length < 2) {\n  selected.push(...pickUnique(anyExamples, 2 - selected.length, seen));\n}\n\nconst examples = selected.slice(0, 2).map((example, index) => {\n  return {\n    index: index + 1,\n    topic_cluster: example.topic_cluster || \"\",\n    topic_type: example.topic_type || \"\",\n    subtype: example.subtype || \"\",\n    example_title: example.example_title || \"\",\n    example_intro: example.example_intro || \"\",\n    example_h2: example.example_h2 || \"\",\n    style_notes: example.style_notes || \"\",\n    structure_notes: example.structure_notes || \"\"\n  };\n});\n\nconst selectedTitleStyleExamples = examples.map(example => {\n  return [\n    `Beispiel ${example.index}`,\n    `Cluster: ${example.topic_cluster}`,\n    example.topic_type ? `Topic Type: ${example.topic_type}` : \"\",\n    example.subtype ? `Subtype: ${example.subtype}` : \"\",\n    example.example_title ? `Headline: ${example.example_title}` : \"\",\n    example.example_intro ? `Einleitung: ${example.example_intro}` : \"\",\n    example.example_h2 ? `H2: ${example.example_h2}` : \"\",\n    example.style_notes ? `Stilnotiz: ${example.style_notes}` : \"\",\n    example.structure_notes ? `Strukturnotiz: ${example.structure_notes}` : \"\"\n  ]\n    .filter(Boolean)\n    .join(\"\\n\");\n}).join(\"\\n\\n---\\n\\n\");\n\ndelete current._row_type;\n\nreturn [\n  {\n    json: {\n      ...current,\n\n      selected_title_style_examples: selectedTitleStyleExamples,\n      selected_title_style_examples_count: examples.length,\n\n      selected_title_style_examples_strategy: {\n        target_cluster: targetCluster,\n        target_topic_type: targetTopicType,\n        exact_cluster_available: exactClusterExamples.length,\n        same_topic_available: sameTopicExamples.length,\n        fallback_available: fallbackExamples.length,\n        total_examples_available: allExamples.length\n      }\n    }\n  }\n];"
+        "jsCode": "const rows = $input.all().map(item => item.json);\n\nconst currentItems = rows.filter(row => row._row_type === \"current_title_item\");\nif (currentItems.length === 0) {\n  throw new Error(\"Kein current_title_item gefunden. Prüfe Mark Current Title Item und Merge Original + Title Style Examples.\");\n}\n\nconst exampleRows = rows\n  .filter(row => row._row_type !== \"current_title_item\")\n  .filter(row => row.active !== false)\n  .filter(row => row.approved_example !== false)\n  .filter(row => row.example_title || row.example_intro || row.example_h || row.example_headline);\n\nfunction priorityValue(example) {\n  const value = Number(example.priority);\n  return Number.isFinite(value) ? value : 999;\n}\nfunction getUniqueKey(example) {\n  return (\n    example.id ||\n    example.example_title ||\n    `${example.topic_cluster || \"\"}_${example.subtype || \"\"}_${example.priority || \"\"}`\n  );\n}\nfunction pickUnique(examples, limit, alreadySeen) {\n  const picked = [];\n  for (const example of examples) {\n    const key = getUniqueKey(example);\n    if (!key || alreadySeen.has(key)) continue;\n    alreadySeen.add(key);\n    picked.push(example);\n    if (picked.length >= limit) break;\n  }\n  return picked;\n}\n\nfunction buildExamplesFor(current) {\n  const targetCluster = String(current.style_example_cluster || \"\").trim();\n  const targetTopicType = String(current.topic_type || \"\").trim();\n\n  const seen = new Set();\n  const exactClusterExamples = exampleRows\n    .filter(example => String(example.topic_cluster || \"\").trim() === targetCluster)\n    .sort((a, b) => priorityValue(a) - priorityValue(b));\n  const sameTopicExamples = exampleRows\n    .filter(example => String(example.topic_type || \"\").trim() === targetTopicType)\n    .filter(example => String(example.topic_cluster || \"\").trim() !== targetCluster)\n    .sort((a, b) => priorityValue(a) - priorityValue(b));\n  const fallbackExamples = exampleRows\n    .filter(example => String(example.topic_cluster || \"\").trim() === \"general_soft_news\")\n    .sort((a, b) => priorityValue(a) - priorityValue(b));\n  const anyExamples = exampleRows\n    .slice()\n    .sort((a, b) => priorityValue(a) - priorityValue(b));\n\n  let selected = [];\n  selected.push(...pickUnique(exactClusterExamples, 2, seen));\n  if (selected.length < 2) {\n    selected.push(...pickUnique(sameTopicExamples, 2 - selected.length, seen));\n  }\n  if (selected.length < 2) {\n    selected.push(...pickUnique(fallbackExamples, 2 - selected.length, seen));\n  }\n  if (selected.length < 2) {\n    selected.push(...pickUnique(anyExamples, 2 - selected.length, seen));\n  }\n\n  const examples = selected.slice(0, 2).map((example, index) => {\n    return {\n      index: index + 1,\n      topic_cluster: example.topic_cluster || \"\",\n      topic_type: example.topic_type || \"\",\n      subtype: example.subtype || \"\",\n      example_title: example.example_title || \"\",\n      example_intro: example.example_intro || \"\",\n      example_h2: example.example_h2 || \"\",\n      style_notes: example.style_notes || \"\",\n      structure_notes: example.structure_notes || \"\"\n    };\n  });\n\n  const selectedTitleStyleExamples = examples.map(example => {\n    return [\n      `Beispiel ${example.index}`,\n      `Cluster: ${example.topic_cluster}`,\n      example.topic_type ? `Topic Type: ${example.topic_type}` : \"\",\n      example.subtype ? `Subtype: ${example.subtype}` : \"\",\n      example.example_title ? `Headline: ${example.example_title}` : \"\",\n      example.example_intro ? `Einleitung: ${example.example_intro}` : \"\",\n      example.example_h2 ? `H2: ${example.example_h2}` : \"\",\n      example.style_notes ? `Stilnotiz: ${example.style_notes}` : \"\",\n      example.structure_notes ? `Strukturnotiz: ${example.structure_notes}` : \"\"\n    ]\n      .filter(Boolean)\n      .join(\"\\n\");\n  }).join(\"\\n\\n---\\n\\n\");\n\n  return {\n    selectedTitleStyleExamples,\n    examplesCount: examples.length,\n    strategy: {\n      target_cluster: targetCluster,\n      target_topic_type: targetTopicType,\n      exact_cluster_available: exactClusterExamples.length,\n      same_topic_available: sameTopicExamples.length,\n      fallback_available: fallbackExamples.length,\n      total_examples_available: exampleRows.length\n    }\n  };\n}\n\nreturn currentItems.map(currentRaw => {\n  const current = { ...currentRaw };\n  delete current._row_type;\n\n  const result = buildExamplesFor(current);\n\n  return {\n    json: {\n      ...current,\n      selected_title_style_examples: result.selectedTitleStyleExamples,\n      selected_title_style_examples_count: result.examplesCount,\n      selected_title_style_examples_strategy: result.strategy\n    }\n  };\n});"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -3378,7 +3105,7 @@
         5456,
         144
       ],
-      "id": "882dedad-0a11-447c-8a4f-5422ac11e218",
+      "id": "56dc4e74-920a-4f93-bfa6-4ebb4a066a6d",
       "name": "Merge Original + Title Style Examples1"
     }
   ],
@@ -4483,17 +4210,16 @@
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1",
-    "binaryMode": "separate",
-    "availableInMCP": false
+    "binaryMode": "separate"
   },
-  "versionId": "63815904-302c-49b3-b5ec-17ab5d9a40db",
+  "versionId": "3204391b-2fb0-4661-864a-3f47fd888a3d",
   "meta": {
     "instanceId": "8247355248a7139c9a15b9f7d1f78398db36a417529ab5a6c6e54668f1fcec89"
   },
   "nodeGroups": [],
-  "id": "JNvpFZRh3vMUuS06",
+  "id": "JotdkXtig7Lp9fm5",
   "tags": []
 }
